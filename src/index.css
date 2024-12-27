@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-button {
+    @apply absolute top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-3 
+    rounded-full shadow-lg z-10
+  }
