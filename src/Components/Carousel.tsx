@@ -27,7 +27,8 @@ const Carousel: React.FC = () => {
   }, [currentSlide]); 
 
   return (
-    <div className="relative w-full sm:h-[75vh] overflow-hidden">
+    <div className="relative w-full h-[30vh] sm:h-[75vh] md:h-[40vh] lg:h-[75vh] overflow-hidden">
+
       {/* Carousel Content */}
       <div
         className=" flex transition-transform duration-500 h-full"
